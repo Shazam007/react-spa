@@ -31,7 +31,8 @@ function NavBar() {
       <div className="navbar-container">
         {/* navbar left */}
         <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-          Coffee House
+          <i class="fas fa-coffee"></i>
+          <span className="logo-text">Brewery</span>
         </Link>
 
         {/* change hamburger icon with click */}
@@ -64,11 +65,11 @@ function NavBar() {
               Products
             </Link>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <Link to="/sign-up" className="nav-links" onClick={closeMobileMenu}>
               Sign Up
             </Link>
-          </li>
+          </li> */}
         </ul>
       </div>
     </nav>

@@ -5,23 +5,22 @@ import Button from "../shared/Button";
 function Hero() {
   return (
     <div className="hero-container">
-      <h1>ADVENTURE AWAITS</h1>
-      <p>What are you waiting for?</p>
+      <span className="hero-title">Way beyond your expectation</span>
       <div className="hero-btns">
-        <Button
+        {/* <Button
           className="btns"
           buttonStyle="btn--outline"
           buttonSize="btn--large"
         >
           GET STARTED
-        </Button>
+        </Button> */}
         <Button
           className="btns"
           buttonStyle="btn--primary"
           buttonSize="btn--large"
           onClick={console.log("hey")}
         >
-          WATCH TRAILER <i className="far fa-play-circle" />
+          <span className="button-style">Find Out More</span>
         </Button>
       </div>
     </div>

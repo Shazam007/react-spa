@@ -1,10 +1,11 @@
 .navbar {
-  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  /* background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%); */
+  background-color: #260101;
   height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 1rem;
   position: sticky;
   top: 0;
   z-index: 999;
@@ -42,6 +43,7 @@
   text-align: center;
   width: 60vw;
   justify-content: end;
+  align-items: center;
   margin-right: 2rem;
 }
 
@@ -53,9 +55,11 @@
   color: #fff;
   display: flex;
   align-items: center;
+  justify-content: center;
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  padding: 0rem 1rem;
   height: 100%;
+  font-family: "Libre Baskerville", serif;
 }
 
 .nav-links:hover {
@@ -73,6 +77,12 @@
 
 .menu-icon {
   display: none;
+}
+
+.logo-text {
+  font-family: "Libre Baskerville", serif;
+  margin-left: 20px;
+  font-weight: 700;
 }
 
 @media screen and (max-width: 960px) {

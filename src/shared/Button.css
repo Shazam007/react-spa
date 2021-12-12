@@ -4,7 +4,7 @@
 
 .btn {
   padding: 8px 20px;
-  border-radius: 2px;
+  border-radius: 8px;
   outline: none;
   border: none;
   cursor: pointer;
@@ -12,8 +12,9 @@
 
 .btn--primary {
   background-color: var(--primary);
-  color: #242424;
+  color: #260101;
   border: 1px solid var(--primary);
+  font-family: "Libre Baskerville", serif;
 }
 
 .btn--outline {
@@ -25,7 +26,7 @@
 }
 
 .btn--medium {
-  padding: 8px 20px;
+  padding: 14px 20px;
   font-size: 18px;
 }
 
@@ -36,6 +37,13 @@
 
 .btn--large:hover,
 .btn--medium:hover {
+  transition: all 0.3s ease-out;
+  background: #fff;
+  color: #242424;
+  transition: 250ms;
+}
+
+.btn--primary:hover {
   transition: all 0.3s ease-out;
   background: #fff;
   color: #242424;
